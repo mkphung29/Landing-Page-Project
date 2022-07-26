@@ -14,9 +14,7 @@ html, body {
     color: #F9FAF8;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin: 0px;
-    padding: 0px;
+    align-items: center; 
 }
 
 /* Move logo more to the left*/
@@ -37,15 +35,21 @@ a {
 /* Section one starts here */
 
 .bodyone {
-    height: 250px;
+    height: 350px;
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold; 
     color: #F9FAF8;
+    max-width: 300px;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -53,11 +57,8 @@ h1 {
     font-size: 18px;
     color: #E5E7EB;
     max-width: 400px;
-    margin: 16px;
-}
-
-.left{
-    margin-left: 24px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -65,6 +66,7 @@ h1 {
     background-color: #3882F6;
     color: white;
     border-radius: 12px;
+    margin: 5px;
     padding: 5px;
 }
 
