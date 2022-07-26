@@ -78,5 +78,18 @@ h2 {
 /* Section Three starts here */
 
 .bodythree {
-    
+    background: #e5e7eb;
+    height: 300px;
 }
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.person {
+    font-size: 18px;
+    font-weight: bold;
+}
+
