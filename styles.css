@@ -73,7 +73,7 @@ h1 {
 /* Section Two starts here*/
 
 .bodytwo {
-    height: 200px;
+    height: 270px;
 }
 
 h2 {
@@ -81,6 +81,10 @@ h2 {
     font-weight: extra-bold;
     color: #1F2937;
     text-align: center;
+}
+
+.cards{
+    display: flex;
 }
 
 
