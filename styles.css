@@ -1,11 +1,6 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Roboto; 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-}
-
-/*Fix font to roboto*/
+/*Roboto font not working ^^^*/
 
 .header{
     height: 48px;
@@ -108,3 +103,15 @@ p {
     color: #e5e7eb;
 }
 
+/* Footer starts here*/
+
+.footer{
+    height: 50px;
+    background-color: #1F2937;
+}
+
+.copyright {
+    color: #e5e7eb;
+}
+
+/* Don't forget to credit for the images used */
