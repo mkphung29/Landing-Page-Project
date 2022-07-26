@@ -2,9 +2,13 @@
 
 /*Roboto font not working ^^^*/
 
-html, body {
+body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .header{
@@ -73,7 +77,7 @@ h1 {
 /* Section Two starts here*/
 
 .bodytwo {
-    height: 270px;
+    height: 450px;
 }
 
 h2 {
@@ -85,20 +89,30 @@ h2 {
 
 .cards{
     display: flex;
+    justify-content: center;
+    gap: 52px;
 }
 
+.caption{
+    max-width: 200px;
+    display: flex;
+}
 
 /* Section Three starts here */
 
 .bodythree {
     background: #e5e7eb;
-    height: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    max-width: 750px;
 }
 
 .person {
@@ -108,9 +122,20 @@ h2 {
 
 /* Section four starts here */
 
+.bodyfour{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    padding: 80px;
+}
+
 .container{
     background-color: #3882f6;
-    width: 600px;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+
 }
 
 #cta {
