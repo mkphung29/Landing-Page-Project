@@ -32,6 +32,7 @@ a {
     font-size: 18px;
 }
 
+/* Section one starts here */
 
 .bodyone {
     height: 250px;
@@ -60,4 +61,22 @@ h1 {
     padding: 5px;
 }
 
+/* Section Two starts here*/
 
+.bodytwo {
+    height: 200px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+/* Section Three starts here */
+
+.bodythree {
+    
+}
