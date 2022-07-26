@@ -93,3 +93,18 @@ h2 {
     font-weight: bold;
 }
 
+/* Section four starts here */
+
+.container{
+    background-color: #3882f6;
+    width: 600px;
+}
+
+#cta {
+    color: #e5e7eb;
+}
+
+p {
+    color: #e5e7eb;
+}
+
