@@ -39,14 +39,14 @@ a {
 .bodyone {
     height: 250px;
     background-color: #1F2937;
-    
+    display: flex;
 }
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold; 
     color: #F9FAF8;
-    margin: 16px;
+    
 }
 
 .text {
@@ -55,6 +55,11 @@ h1 {
     max-width: 400px;
     margin: 16px;
 }
+
+.left{
+    margin-left: 24px;
+}
+
 
 .signup{
     background-color: #3882F6;
