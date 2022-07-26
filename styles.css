@@ -2,6 +2,11 @@
 
 /*Roboto font not working ^^^*/
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     height: 48px;
     background: #1F2937;
@@ -10,6 +15,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Move logo more to the left*/
