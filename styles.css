@@ -109,6 +109,7 @@ h2 {
     background: #e5e7eb;
     height: 500px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
