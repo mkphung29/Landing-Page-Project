@@ -158,7 +158,9 @@ p {
     color: #e5e7eb;
 }
 
-
+.signup.bottom {
+    border: white;
+}
 
 /* Footer starts here*/
 
