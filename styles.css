@@ -98,6 +98,11 @@ h2 {
     display: flex;
 }
 
+.partwo {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Section Three starts here */
 
 .bodythree {
@@ -125,8 +130,9 @@ h2 {
 .bodyfour{
     display: flex;
     justify-content: center;
-    height: 300px;
-    padding: 80px;
+    align-items: center;
+    height: 150px;
+    padding: 24px;
 }
 
 .container{
@@ -151,6 +157,9 @@ p {
 .footer{
     height: 50px;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .copyright {
