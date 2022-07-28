@@ -67,13 +67,18 @@ h1 {
     padding: 0px;
 }
 
-
-.signup{
+button {
     background-color: #3882F6;
     color: white;
-    border-radius: 12px;
-    margin: 5px;
-    padding: 5px;
+    border-radius: 8px;
+    margin: 8px auto;
+    padding: 8px;
+    width: 27%;
+    font-weight: bold;
+    border-style: none;
+}
+.signup{
+   
 }
 
 /* Section Two starts here*/
