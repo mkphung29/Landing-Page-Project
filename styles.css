@@ -17,11 +17,12 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
 }
 
-/* Move logo more to the left*/
+
 
 .links {
     list-style: none;
@@ -45,6 +46,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 48px;
+    padding: 20px;
 }
 
 h1 {
