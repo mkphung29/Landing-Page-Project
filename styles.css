@@ -77,9 +77,6 @@ button {
     font-weight: bold;
     border-style: none;
 }
-.signup{
-   
-}
 
 /* Section Two starts here*/
 
@@ -151,34 +148,44 @@ cite{
     justify-content: center;
     align-items: center;
     height: 150px;
-    padding: 24px;
+    padding: 40px;
 }
 
 .container{
     background-color: #3882f6;
-    width: 1000px;
-    height: 100px;
+    width: 850px;
+    height: 110px;
     display: flex;
     border-radius: 10px;
     display: flex;
-    gap: 60px;
-    justify-content: center;
+    gap: 150px;
     align-items: center;
-
+    justify-content: center;
 }
+
+
 
 #cta {
     color: #e5e7eb;
     font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 p {
+    margin: 0;
+    padding: 0;
     color: #e5e7eb;
 }
 
-.signup.bottom {
-    border: white;
+.bottom{
+    border-style: solid;
+    border-color: white;
+    width: 110px;
+    padding: 3px;
 }
+
 
 /* Footer starts here*/
 
