@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
 
 }
 
@@ -17,6 +18,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 
@@ -78,6 +80,7 @@ button {
 /* Section Two starts here*/
 
 .bodytwo {
+    background-color: white;
     height: 480px;
     display: flex;
     flex-direction: column;
