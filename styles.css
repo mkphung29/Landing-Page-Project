@@ -78,6 +78,9 @@ h1 {
 
 .bodytwo {
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 h2 {
@@ -93,9 +96,8 @@ h2 {
     gap: 52px;
 }
 
-.caption{
+.card{
     max-width: 200px;
-    display: flex;
 }
 
 .partwo {
