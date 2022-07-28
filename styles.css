@@ -77,7 +77,7 @@ h1 {
 /* Section Two starts here*/
 
 .bodytwo {
-    height: 450px;
+    height: 480px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -92,7 +92,7 @@ h2 {
 
 .cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 52px;
 }
 
@@ -100,12 +100,12 @@ h2 {
     max-width: 200px;
 }
 
+/* Section Three starts here */
+
 .partwo {
     display: flex;
     flex-direction: column;
 }
-
-/* Section Three starts here */
 
 .bodythree {
     background: #e5e7eb;
